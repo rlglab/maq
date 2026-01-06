@@ -1,0 +1,19 @@
+# Logs: ignore anything with "log" in the name (files or folders)
+*log*
+
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Keep offline_data folders, but ignore everything inside them
+*.pkl
+
+# Container root marker/dir
+.container_root*
+.container_root/*
+
+evaluation_results*
+evaluation_results/*
+
+*lockfile*
